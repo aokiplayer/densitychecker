@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/card"
+    class="android.support.v7.widget.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    app:cardCornerRadius="2dp"
+    tools:showIn="@layout/fragment_main">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/label_property"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="property name"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/text_property"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_property"
+            android:paddingLeft="40sp"
+            android:text="property value"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <!-- Sample of cardview -->
+    <!--<android.app.v7.widget.CardView-->
+    <!--android:id="@+id/cardview"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:elevation="100dp"-->
+    <!--card_view:cardBackgroundColor="@color/cardview_initial_background"-->
+    <!--card_view:cardCornerRadius="8dp"-->
+    <!--android:layout_marginLeft="@dimen/margin_large"-->
+    <!--android:layout_marginRight="@dimen/margin_large"-->
+    <!-->-->
+</view>
+
+
+    
