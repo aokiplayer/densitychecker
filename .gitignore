@@ -24,3 +24,16 @@ proguard/
 
 # Log Files
 *.log
+
+# Mac Files
+.DS_Store
+
+# Git Files
+.gitignore
+
+# Temporary Files
+*.swp
+
+# IDE Files
+/.idea/workspace.xml
+/.idea/libraries
